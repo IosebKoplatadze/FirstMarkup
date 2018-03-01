@@ -1,0 +1,254 @@
+@media screen and (min-width:700px)
+{
+body{
+	margin:0 auto;
+	width:952px;
+	background: url(background.jpg) repeat-x fixed;
+}
+
+
+.logo{
+	box-sizing:border-box;
+	position:relative;
+	float:left;
+	margin:3px;
+	width:250px;
+	height:200px;
+	background-color:orange;
+	background-image:url(logo.png),linear-gradient(to bottom,orange,red);
+	background-size: 248px;
+	background-position:center,center;
+	background-repeat: no-repeat,no-repeat;
+	border-radius:40px 5px 5px 5px;
+}
+.logo h1{
+	text-align:center;
+	color:white;
+	position:relative;
+	top:127px;
+	font-size:40px;
+	
+}
+
+.banner{
+	box-sizing:border-box;
+	position:relative;
+	float:right;
+	width:690px;
+	height:117px;
+	margin:3px;
+	background-color:orange;
+	border-radius:5px 40px 5px 5px;
+}
+
+.banner img{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	
+}
+
+.menu{
+	box-sizing:border-box;
+	position:relative;
+	float:right;
+	width:690px;
+	height:77px;
+	margin:3px;
+	text-align:center;
+	background-color:red;
+	border-radius:5px;
+}
+a{
+	text-decoration:none;
+	color: black;
+}
+.menu ul li{
+	display:inline-block;
+	margin:3px;
+	font-weight:bold;
+	padding:10px;
+	background-color:white;
+	border: 2px solid orange;
+	border-radius:5px;
+	box-shadow:2px 2px 3px, inset 10px 12px 22px orange ;
+	transition: all 0.1s ease-in-out, transform;
+}
+
+.menu li:hover{
+	box-shadow:0.5px 1px 3px, inset 10px 12px 22px orange ;
+	transform:scale(1.1);
+}
+
+.menu li:active, .menu #activated{
+	border: 2px solid white;
+	box-shadow:2px 2px 11px yellow, inset 5px 6px 22px orange ;
+}
+
+
+
+.left{
+	box-sizing:border-box;
+	position:relative;
+	float:left;
+	width:250px;
+	height:700px;
+	margin:3px;
+	background-color:red;
+	border-radius:5px 5px 5px 5px;
+}
+
+
+
+.left ul li{
+	display:block;
+	position:relative;
+	left:-20px;
+	box-sizing:border-box;
+	margin-top:6px;
+	padding:3px;
+	width:100%;
+	background-color:white;
+	font-family:Arial;
+	border: 2px solid orange;
+	border-radius:5px;
+	box-shadow:2px 2px 3px, inset 10px 12px 22px orange;
+	transition: all 0.1s ease-in-out, transform;
+}
+
+.left li:hover{
+	box-shadow:0.5px 1px 3px, inset 10px 12px 22px orange;
+	transform:scaleX(1.1);
+}
+
+.left li:active{
+	border: 2px solid white;
+	box-shadow:2px 2px 11px yellow, inset 5px 6px 22px orange;
+}
+
+.left_banner{
+	box-sizing:border-box;
+	width:250px;
+	height:80px;
+	position:absolute;
+	top:911px;
+	margin:3px;
+	background-color:red;
+	border-radius:5px 5px 5px 5px;
+}
+.left_banner2{
+	box-sizing:border-box;
+	width:250px;
+	height:80px;
+	position:absolute;
+	top:996px;
+	margin:3px;
+	background-color:red;
+	border-radius:5px 5px 5px 5px;
+}
+
+.left_banner img,.left_banner2 img{
+	position:relative;
+	top:10px;
+	left:7px;
+	
+}
+
+.main{
+	box-sizing:border-box;
+	position:relative;
+	float:right;
+	width:690px;
+	
+	margin:3px;
+	background-color:orange;
+	border-radius:5px 5px 5px 5px;
+}
+
+table{
+	box-sizing:border-box;
+	margin:10px;
+	width: 97%;
+	background-color:lightblue;
+	border:2px solid red;
+	border-radius:5px;
+	box-shadow:2px 2px 3px;
+	transition: all 0.1s ease-in-out, transform;
+}
+
+table, td {
+	border-spacing:7px;
+}
+
+.main table:hover{
+	box-shadow:0.5px 1px 3px ;
+	transform:scale(1.06);
+}
+
+.main table:active{
+	border: 2px solid white;
+	box-shadow:2px 2px 11px yellow, inset 5px 6px 212px orange ;
+}
+
+
+.main img{
+	position:relative;
+	top:2px;
+	border:2px solid red;
+	border-radius:5px 5px 5px 5px;
+	
+}
+
+.text{
+	background-color:#f5f1d5;
+	border:2px solid red;
+	border-radius:5px 5px 5px 5px;
+	height:250px;
+}
+.text h3{
+	position:relative;
+	left:12px;
+	margin:1px;
+	margin-top:4px;
+}
+.text hr{
+	color:red;
+	border:1px dashed;
+}
+.text p{
+	position:relative;
+	left:12px;
+}
+.footer{
+	box-sizing:border-box;
+	position:relative;
+	clear:both;
+	width:946px;
+	height:120px;
+	margin:3px;
+	background-color:orange;
+	border-radius:5px 5px 40px 40px;
+}
+
+#foot_banner{
+	position:relative;
+	top:10px;
+	left:10px;
+	float:left;
+}
+.footer h2{
+	float:right;
+	position:relative;
+	right:20px;
+	color:white;	
+}
+
+.main video{
+	box-sizing:border-box;
+	margin:10px;
+	width: 97%;
+	border:2px solid red;
+	border-radius:5px;
+	box-shadow:2px 2px 3px;
+}
+}

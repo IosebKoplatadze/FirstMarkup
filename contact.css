@@ -1,0 +1,19 @@
+﻿.main form {
+	background-color:#f5f1d5; 
+	height:450px;
+	padding:10px;
+	box-sizing:border-box;
+	margin:10px;
+	width: 97%;
+	border:2px solid red;
+	border-radius:5px;
+	box-shadow:2px 2px 3px;
+}
+input {padding:5px; margin:5px; border-radius:10px;}
+
+
+textarea{
+	resize:none;
+	border-radius: 5px;
+	width:97%;
+}
